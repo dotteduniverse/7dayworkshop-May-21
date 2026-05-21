@@ -1,0 +1,26 @@
+# Core Data & Web
+pandas==2.2.3
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# LangChain & RAG
+langchain==0.3.13
+langchain-pinecone==0.2.0
+langchain-community==0.3.13
+pinecone-client==5.0.1
+tiktoken==0.8.0
+
+# LLM & Embeddings
+openai==1.59.3
+# optionally: cohere
+
+# Utilities
+python-dotenv==1.0.1
+jupyter==1.1.1
+
+# Optional: for scraping & html parsing
+lxml==5.3.0
+html5lib==1.1
+
+# Optional: for better pdf parsing (PyPDFLoader uses pypdf)
+pypdf==5.1.0

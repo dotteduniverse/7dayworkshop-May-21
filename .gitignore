@@ -1,0 +1,80 @@
+# Environment & secrets
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+secrets.yaml
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib64/
+pyvenv.cfg
+
+# Jupyter notebooks (optional: uncomment to exclude outputs)
+# .ipynb_checkpoints/
+# *.ipynb  # uncomment to exclude all notebooks (not recommended for workshop)
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-*
+.project
+.pydevproject
+
+# Logs & databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Data files (optional: exclude large or generated data)
+# data/      # uncomment if you don't want to commit sample data
+*.parquet
+*.feather
+
+# Model & vector DB local files
+*.onnx
+*.bin
+*.pkl
+*.joblib
+
+# API key files from workshop
+!sample.env  # allow an example .env file (without real keys)
